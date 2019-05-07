@@ -4,6 +4,10 @@
 
 一个美股行情工具包，可以用来获取美股股票列表、实时行情、历史k线数据。
 
+## 环境
+
+python 3.x
+
 ## 安装 
  
 ```
@@ -26,17 +30,20 @@ token申请地址： https://stock.mypython.me/app/apply_token
 - 获取美股代码列表
 
 ```python
-stock_client.get_stock_list()
+stock_list = stock_client.get_stock_list()
+print(stock_list)
 ```
 
 - 获取实时行情
 
 ```python
-stock_client.get_stock_quote(query=['BABA','JD'])
+stock_quote = stock_client.get_stock_quote(query=['BABA','JD'])
+print(stock_quote)
 ```
 
 - 获取历史行情数据
 
 ```python
-stock_client.get_stock_bars(query=['BABA','JD'])
+stock_bars = stock_client.get_stock_bars(query=['BABA','JD'])
+print(stock_bars)
 ```
