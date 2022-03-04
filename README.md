@@ -47,3 +47,7 @@ print(stock_quote)
 stock_bars = stock_client.get_stock_bars(query=['BABA','JD'])
 print(stock_bars)
 ```
+
+## 赞助作者
+
+wx：285126081
