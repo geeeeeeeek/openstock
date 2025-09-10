@@ -1,7 +1,3 @@
-import requests
-
-from openstock.common.helpers import is_empty
-from openstock.common.params import STOCK_LIST_URL, STOCK_QUOTE_URL, STOCK_BARS_URL
 
 import akshare as ak
 

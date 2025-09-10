@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="openstock",
-    version="0.0.5",
+    version="0.0.7",
     author="Tim",
     author_email="kefu308@gmail.com",
     description="一个股票行情工具包，可以用来获取股票历史k线数据",
