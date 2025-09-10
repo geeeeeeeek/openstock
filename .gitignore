@@ -1,0 +1,4 @@
+.idea
+__pycache__
+openstock/__pycache__/
+openstock/stock/__pycache__/
